@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/i18n/defaults-*.min.js"></script>
+
+	</head>
+	<body>
+		<header>
+			<div class="col-md-2">
+				<a href="#" class="logo"></a>	
+			</div>
+			<div class="col-md-10">
+				
+			</div>
+		</header>
+		<div class="col-md-2" style="height:100vh;position:fixed;z-index:9999;top:50;left:0;">	
+			<div class="profile">
+				<a href="#" class="img-profile"><img src="user.png" class="img-thumbnail" width="60" height="60"></a>
+				<div class="profile-name">
+					<h4>Long Hoo</h4>
+					<small>Leader</small>
+				</div>
+			</div>
+			<!-- Menu -->
+			<div class="navigation">
+				<ul>
+					<li tabindex="1"><span class="glyphicon glyphicon-home"></span> Dashboard</li>
+					
+					<li class="ahere"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="glyphicon glyphicon-edit"></span> Quản lý học sinh</li>
+					<li tabindex="1" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"  ><span class="glyphicon glyphicon-user"></span> Quản lý tài khoản</li>
+						<div class="children-nav">
+						<ul id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<li><a class="children-nav" href="#">Member</a></li>
+							<li class="children-nav"><a href="#">Employees</a></li>
+						</ul>
+						</div>
+					<li tabindex="1" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-user"></span> Quản lý chung</li>
+						<div class="children-nav">
+						<ul id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+							<li><a class="children-nav" href="#">Chi nhánh</a></li>
+							<li class="children-nav"><a href="#">Khối</a></li>
+							<li class="children-nav"><a href="#">Lớp</a></li>
+						</ul>
+						</div>
+					<li tabindex="0"><span class="glyphicon glyphicon-home"></span> Dashboard</li>
+					<li tabindex="0"><span class="glyphicon glyphicon-home"></span> Dashboard</li>
+					<li tabindex="1"><span class="glyphicon glyphicon-log-out"></span> Đăng xuất</li>
+				</ul>
+			</div>
+		</div> <!-- End Menu-->
+			<!-- Main -->
+			<div class="col-md-10" style="height:auto;float:right;">
+			<div class="row">
+				<div class="col-md-12" style="height:85px;box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);padding-top:15px;">
+					<div class="here-icon">
+						<i class="fa fa-user">
+						</i>
+					</div>
+					<div class="here-text">
+						<h4>Đăng nhập</h4>
+					</div>
+				</div>
+			</div>
+			<div class="row1">
+			<form class="form1">
+			<div class="formtren">
+				  Tài khoản<br>
+			  <input type="text" name="firstname" placeholder="Nhập số điện thoại..." ><br>
+			  Mật khẩu<br>
+			  <input type="password" name="lastname" placeholder="Nhập mật khẩu...">
+			</div>
+			<div class="formduoi">
+				<div type="sumit"><a class="button" href="#">Đăng nhập</a></div>
+				<div type="sumit"><a class="button" href="change password.html">Đổi mật khẩu</a></div>
+			</div>
+			
+			</form>
+			</div>
+		</div>
+	</body>
+</html>
